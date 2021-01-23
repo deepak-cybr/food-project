@@ -1,0 +1,79 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    background-color:black;
+    height:80px;
+      top:0px;
+     position:sticky;
+    }
+    ul{
+      list-style-type:none;
+      padding:0;
+      margin:0;
+      position:absolute:
+    
+      }
+      ul li{
+          
+          float: left;
+          margin-top:20px;
+          }
+          ul li a{
+            width:150px;
+            color:orangered;
+            display:block;
+            text-decoration:none;
+            font-size:20px;
+            text-align:center;
+             margin-top: 5px;
+            border-radius:10px;
+            font-family:Century Gothic;
+            font-weight:bold;
+            }
+            
+            ul li ul{
+            background-color: black;
+            }
+            ul li ul li{
+            float:none;
+            }
+            ul li ul{
+            display:none;
+            }
+            ul li:hover ul{
+            display:block;
+            }
+           a:hover{
+             text-decoration: none;
+             color: orangered;
+           }
+          #aboutus h2{
+            margin-bottom: 25px;
+          }
+          .image_wrap{
+              width:80%;
+          }
+          .image_wrap img{
+            position:fixed;
+              width: 20%;
+              padding: 10px;
+              border-radius: 50%;
+              box-shadow: 0 0 10px #999999;
+              
+          }
+         
+          tr td:first-child{
+            padding-right: 20px;
+            
+        }
+        tr td{
+            padding-top: 20px;
+            
+        }
+
+        section{
+          height: 40%;
+          text-align: center;
+          background-color: black;
+      }
